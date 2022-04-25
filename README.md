@@ -210,3 +210,20 @@ We analyze the results with average ranking following [GraphGym](https://github.
 We analyze the results with distribution estimates following [NDS](https://github.com/facebookresearch/nds), and the corresponding code is in [`figure/distribution.py`](./figure/distribution.py).
 
 ![space4hgnn_distribution](./figure/space4hgnn_distribution.png)
+
+## Cite
+
+Please kindly cite our paper if you use this code:
+
+```
+@inproceedings{zhao2022space4hgnn,
+  title={Space4HGNN: A Novel, Modularized and Reproducible Platform to Evaluate Heterogeneous Graph Neural Network},
+  author={Zhao, Tianyu and Yang, Cheng and Li, Yibo and Gan, Quan and Wang, Zhenyi and Liang, Fengqi and Zhao, Huan and Shao, Yingxia and Wang, Xiao and Shi, Chuan},
+  booktitle={SIGIR},
+  year={2022}
+}
+```
+
+## Acknowledgement
+
+The code is built on  [GraphGym](https://github.com/snap-stanford/GraphGym), a method defining design space for graph neural network.
